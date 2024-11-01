@@ -1,0 +1,103 @@
+/**
+*
+*   WP Category Thumbnail
+*
+**/
+
+.wpct-wrap {
+  overflow: hidden;
+  border: 1px solid #CCC;
+}
+
+ul.wpct {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+ul.wpct li {
+  padding: 0;
+  margin: 0 0 15px 0;
+  display: block;
+  border-radius: 0;
+}
+
+ul.wpct li .wpct-read-more {}
+
+ul.wpct li .wpct-read-more:hover {
+  text-decoration: none;
+}
+
+.wpct-wrap .cat-img {
+  display: block;
+}
+
+.excerpt-section {
+  padding-top: 7px;
+}
+
+.wpct-wrap .wpct-box {
+  padding: 0;
+  position: relative;
+  color: #FFF;
+  background-color: #FFF;
+  overflow: hidden;
+  border-radius: 0;
+}
+
+.wpct-img {
+  border-radius: 0;
+  width: 100%;
+  display: block;
+  -webkit-transition: all 0.4s ease;
+  -moz-transition: all 0.4s ease;
+  -o-transition: all 0.4s ease;
+  transition: all 0.4s ease;
+}
+
+.wpct-img:hover {
+  -webkit-transform: scale(1.2);
+  transform: scale(1.2);
+  -webkit-transition: all 0.4s ease;
+  -moz-transition: all 0.4s ease;
+  -o-transition: all 0.4s ease;
+  transition: all 0.4s ease;
+}
+
+.wpct-read-more {
+  display: inline-block;
+  padding-top: 8px;
+}
+
+div.wpct-box-content h2 {
+  padding: 0;
+  margin-bottom: 2px;
+  font-weight: bold;
+}
+
+div.wpct-box-content {
+  padding: 10px;
+  margin: 0;
+  border-radius: 0;
+  background: #16a085;
+}
+
+div.wpct-box-content span.thumb-date, div.wpct-box-content span.comment-num {
+  display: inline-block;
+  font-style: italic;
+  margin-bottom: 4px;
+  font-size: 12px;
+}
+
+div.wpct-box-content span.comment-num {
+  float: right;
+}
+
+div.wpct-box-content p {
+  margin-bottom: 5px;
+}
+
+div.error {
+  padding: 4px 5px;
+  text-align: center;
+}
